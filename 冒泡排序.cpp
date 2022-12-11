@@ -9,14 +9,14 @@ int arr_len = sizeof(arr) / sizeof(arr[0]);
 
 int main()
 {
-	cout << "ÅÅÐòÇ°£º" << endl;
+	cout << "Ã…Ã…ÃÃ²Ã‡Â°Â£Âº" << endl;
 	for (int i = 0; i < arr_len; i++)
 	{
 		cout << arr[i] << " ";
 	}
 	cout << endl;
 
-	cout << "ÅÅÐòºó£º" << endl;
+	cout << "Ã…Ã…ÃÃ²ÂºÃ³Â£Âº" << endl;
 	for (int i = 0; i < arr_len - 1; i++)
 	{
 		for (int j = 0; j < arr_len - i - 1; j++)
